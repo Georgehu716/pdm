@@ -103,7 +103,7 @@ jobs:
       - name: List packages
         run: pdm self list
       - name: Pack pdm
-        run: pdm pack
+        run: pdm pack -v
 
       - name: Test zipapp
         run: python pdm.pyz --version
