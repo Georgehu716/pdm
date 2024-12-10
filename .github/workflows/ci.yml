@@ -101,7 +101,7 @@ jobs:
           python -m pip install .
           pdm self add pdm-packer
       - name: List packages
-        run: pdm self list
+        run: pdm -V
       - name: Pack pdm
         run: pdm pack -v
 
