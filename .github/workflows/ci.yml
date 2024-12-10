@@ -17,6 +17,7 @@ on:
       - main
       - dev
       - "maintain/*"
+      - "test/ci"
     paths-ignore:
       - "docs/**"
       - "news/**"
